@@ -18,7 +18,8 @@
 
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/pay_salary)
 
+
 运行结果
-![img.png](img.png)
+![img.png](HomeWorks/pay_salary/img.png)
 
 ---------------------------------------------------------------------
