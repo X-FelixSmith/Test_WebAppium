@@ -84,6 +84,6 @@ from import 相当于深拷贝
 5. self
 6. yaml 存储测试数据 （ yaml.safe_load(),yaml.safe_dump() ）
 
-- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04.git)
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/class_animal)
 
 ---------------------------------------------------------------------
