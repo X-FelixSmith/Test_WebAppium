@@ -89,3 +89,17 @@ from import 相当于深拷贝
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/class_animal)
 
 ---------------------------------------------------------------------
+
+### python pytest 测试实战（一）
+
+- 作业  
+1、补全计算器（加法，除法）的测试用例  
+2、使用数据驱动完成测试用例的自动生成  
+3、在调用测试方法之前打印【开始计算】，在调用测试方法之后打印【计算结束】   
+  坑1:除数为0的情况  
+坑2: 自己发现
+  
+
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/calculator)
+
+---------------------------------------------------------------------
