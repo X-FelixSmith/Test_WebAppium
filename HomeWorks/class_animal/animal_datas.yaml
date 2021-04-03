@@ -1,0 +1,11 @@
+cat:
+  name: '花花'
+  color: 'yellow'
+  age: 2
+  gender: 'female'
+
+dog:
+  name: '旺财'
+  color: 'white'
+  age: 3
+  gender: 'male'
