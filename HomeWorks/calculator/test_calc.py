@@ -24,7 +24,7 @@ class TestCalc():
 
     # 浮点数 加法
     @pytest.mark.parametrize("a,b,expect", data["add_float"]["datas"], ids=data["add_float"]["ids"])
-    def test_division(self,a,b,expect):
+    def test_add_float(self,a,b,expect):
         calc = Calculator()
         print("计算浮点数加法")
         assert round(calc.add(a, b),2) == expect
