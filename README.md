@@ -110,6 +110,22 @@ from import 相当于深拷贝
 2、实现 参数化的功能  
 3、生成测试 报告
 
+
+- 知识要点
+  1. pytest fixture 作用
+    - 定义传入测试中的数据集
+     - 配置测试前系统的初始状态
+     - 为批量测试提供数据源等
+    - 使用：直接通过函数名，传递到方法中
+  
+  2. pytest conftest.py
+  - 数据共享的地方（全局的配置和前期工作都可以写在这里）
+  3. allure
+  - 生成 allure 测试结果 ：pytest —alluredir=./report/
+  - 展示报告：allure serve ./report
+  - 生成最终版本的报告： allure generate ./report
+
+
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/calculator)
 
 ![img.png](HomeWorks/calculator/img.png)
