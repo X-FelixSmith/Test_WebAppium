@@ -121,7 +121,7 @@ from import 相当于深拷贝
   2. pytest conftest.py
   - 数据共享的地方（全局的配置和前期工作都可以写在这里）
   3. allure
-  - 生成 allure 测试结果 ：pytest —alluredir=./report/
+  - 生成 allure 测试结果 ：pytest —alluredir=./report/ (例如：$ pytest test_calc_2.py --alluredir ./result)
   - 展示报告：allure serve ./report
   - 生成最终版本的报告： allure generate ./report
 
