@@ -92,7 +92,7 @@ from import 相当于深拷贝
 
 ### python pytest 测试实战（一）
 
-- 作业  
+- 需求  
 1、补全计算器（加法，除法）的测试用例  
 2、使用数据驱动完成测试用例的自动生成  
 3、在调用测试方法之前打印【开始计算】，在调用测试方法之后打印【计算结束】   
@@ -103,3 +103,13 @@ from import 相当于深拷贝
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/calculator)
 
 ---------------------------------------------------------------------
+### python pytest 测试实战（二）
+- 需求
+  
+  1、上节课的作业，使用fixture 实现setup/teardown 功能，  
+2、实现 参数化的功能  
+3、生成测试 报告
+
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/calculator)
+
+![img.png](HomeWorks/calculator/img.png)
