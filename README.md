@@ -129,3 +129,14 @@ from import 相当于深拷贝
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/calculator)
 
 ![img.png](HomeWorks/calculator/img.png)
+
+---------------------------------------------------------------------
+
+### web 企业微信实战（一）
+
+- 需求：使用序列化的方法用cookie登录企业微信
+- 知识要点：
+  - 使用chrome debug方式登录企业微信，复用浏览器 获取cookies 
+  - 在新的测试用例中 获取cookies 传入driver 以致达到免扫码登录
+  
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/we_getcookies)
