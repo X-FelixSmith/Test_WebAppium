@@ -100,3 +100,14 @@ from import 相当于深拷贝
   - 在新的测试用例中 获取cookies 传入driver 以致达到免扫码登录
   
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/we_getcookies)
+
+### web 企业微信实战（二）
+
+- 需求：使用PO设计模式编写添加成员自动化测试用例（首页-通讯录-添加成员-断言；首页-添加成员-断言）
+- 知识要点：
+  - PO设计思想 
+  - 封装
+  - 获取单个元素、多个元素及转换与传递
+  - 通过方法将数据传出，在测试用例中进行断言
+  
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/test_po)
