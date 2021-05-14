@@ -111,3 +111,12 @@ from import 相当于深拷贝
   - 通过方法将数据传出，在测试用例中进行断言
   
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/test_po)
+
+
+---
+
+### appium实战： 企业微信移动app 手动添加成员测试
+
+- 使用 Appium 实现自动化添加联系人
+
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/mumu_workwx)
