@@ -120,3 +120,9 @@ from import 相当于深拷贝
 - 使用 Appium 实现自动化添加联系人
 
 - [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/mumu_workwx)
+
+### appium实战2: 企业微信 app 元素定位 PO封装
+
+- [作业地址](https://gitee.com/hogwarts-kkk/HogwartsFIS04/tree/master/HomeWorks/test_appium)
+
+![allure](https://img-blog.csdnimg.cn/20210517230156508.png)
