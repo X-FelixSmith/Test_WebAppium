@@ -32,6 +32,9 @@ class TestTag:
         assert r.json()['errcode'] == expect
 
     def test_update_tag(self):
+        '''
+        更新标签
+        '''
         url = f"https://qyapi.weixin.qq.com/cgi-bin/tag/update?access_token={self.token}"
         data = {
             "tagname": "Test_update",
@@ -42,6 +45,9 @@ class TestTag:
         assert r.json()['errcode'] == 0
 
     def test_get_tag(self):
+        """
+        查询标签
+        """
         url = f"https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token={self.token}&tagid={self.tagid}"
         r = requests.request("get", url)
         print(r.json())
@@ -51,9 +57,13 @@ class TestTag:
         (1, 0), (2, 0), (3, 0)
     ])
     def test_delete_tag(self, tagid, expect):
+        """
+        删除标签
+        :param tagid: 标签id
+        :param expect: 期望值
+        """
         url = f"https://qyapi.weixin.qq.com/cgi-bin/tag/delete?access_token={self.token}&tagid={tagid}"
         r = requests.request("GET", url)
-        # print(r.json())
         assert r.json()['errcode'] == expect
 
     def test_get_tag_list(self):
@@ -67,7 +77,7 @@ class TestTag:
 
     def test_clear_tag(self):
         '''
-        删除标签
+        清空标签
         '''
         tag_list_info = self.test_get_tag_list()
         tag_list = tag_list_info["taglist"]
