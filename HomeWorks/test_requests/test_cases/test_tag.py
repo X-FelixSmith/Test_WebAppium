@@ -58,3 +58,6 @@ class TestTag:
                 tag_id_list = Utils.base_jsonpath(tag_info, "$..tagid")
                 self.tag.log_info(tag_id_list)
                 assert self.tag_id not in tag_id_list
+
+            else:
+                assert True
